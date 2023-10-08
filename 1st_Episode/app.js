@@ -1,15 +1,3 @@
-/**
- *
- * <div id="parent">
- *   <div id="child">
- *      <h1></h1>
- *   </div>
- * </div>
- *
- * ReactElement(Object)=>HTML(Browser Understands)
- *
- */
-
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
     React.createElement("h1", {}, "I am an H1 tag"),
